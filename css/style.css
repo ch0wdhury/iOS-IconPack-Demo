@@ -29,6 +29,7 @@ h4, h5, h6 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 }
+/*Styles for product description section*/
 .product-details {
 	vertical-align: middle;
 	margin-top: 200px;
@@ -58,20 +59,13 @@ h4, h5, h6 {
 	transition: .5s ease;
 }
 .purchase-btn:hover {
-	font-weight: 700;
-	padding: 15px 30px;
 	color: #444444;
 	background-color: #f2f2f2;
 	border-radius: 2px;
 }
-.section-first {
-	background-image: url("../images/pexels-bongkarn-thanyakij-3774081.jpg");
-  	height: 100%;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	position: relative;
-}
+/*Styles for product description section*/
+
+/*Left Side Black Overlay Settings*/
 .layer {
     background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
@@ -80,6 +74,9 @@ h4, h5, h6 {
     width: 50%;
     height: 100%;
 }
+/*Left Side Black Overlay Settings*/
+
+/*Right Side Black Overlay Settings*/
 .layer2 {
     background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
@@ -88,6 +85,20 @@ h4, h5, h6 {
     width: 50%;
     height: 100%;
 }
+/*Right Side Black Overlay Settings*/
+
+/*First Theme Section*/
+.section-first {
+	background-image: url("../images/pexels-bongkarn-thanyakij-3774081.jpg");
+  	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+/*First Theme Section*/
+
+/*Second Theme Section*/
 .section-second {
   	background-image: url("../images/pexels-freestocksorg-58639.jpg");
   	height: 100%; 
@@ -95,6 +106,9 @@ h4, h5, h6 {
   	background-repeat: no-repeat;
   	background-size: cover;
 }
+/*Second Theme Section*/
+
+/*Third Theme Section*/
 .section-third {
   	background-image: url("../images/pexels-gratisography-4641.jpg");
   	height: 100%; 
@@ -102,6 +116,9 @@ h4, h5, h6 {
   	background-repeat: no-repeat;
   	background-size: cover;
 }
+/*Third Theme Section*/
+
+/*Fourth Theme Section*/
 .section-fourth {
   	background-image: url("../images/pexels-life-of-pix-7764.jpg");
   	height: 100%; 
@@ -109,4 +126,5 @@ h4, h5, h6 {
   	background-repeat: no-repeat;
   	background-size: cover;
 }
+/*Fourth Theme Section*/
 

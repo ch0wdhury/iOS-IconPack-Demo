@@ -22,70 +22,78 @@
   </head>
   <body>
   	<div class="main">
+  		<!-- First Theme Section Starts Here -->
 	  	<section class="section-first animate__animated animate__fadeIn">
 	  		<div class="layer animate__animated animate__fadeInLeft animate__delay-1s"></div>
 	  		<div class="container">
 	  			<div class="row">
-	  				<div class="col-lg-6">
+	  				<div class="col-md-6 col-sm-7 col-8">
 	  					<div class="product-details animate__animated animate__fadeInUp animate__delay-2s">
 		  					<h2 class="product-title">Demo Theme Pack</h2>
 		  					<p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur illum facere, consequatur at esse quaerat perferendis deleniti cupiditate architecto ab excepturi laudantium eligendi! Excepturi, beatae.</p>
 		  					<h5 class="regular-price">Regular Price: <span style="text-decoration: line-through;">$99.99</span></h5>
 		  					<h4 class="sale-price">Sale Price: $79.99</h4>
-		  					<a href="#" class="purchase-btn">Purchanse Now</a>
+		  					<a href="#" class="purchase-btn">Purchase Now</a>
 	  					</div>
 	  				</div>
 	  			</div>
 	  		</div>
 	  	</section>
+  		<!-- First Theme Section Ends Here -->
+  		<!-- Second Theme Section Starts Here -->
 	  	<section class="section-second">
 	  		<div class="layer2"></div>
 	  		<div class="container">
 	  			<div class="row">
-	  				<div class="offset-lg-6 col-lg-6 text-right">
+	  				<div class="offset-md-6 offset-sm-5 offset-4 col-md-6 col-sm-7 col-8 text-right">
 	  					<div class="product-details">
 		  					<h2 class="product-title">Demo Color Pack</h2>
 		  					<p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur illum facere, consequatur at esse quaerat perferendis deleniti cupiditate architecto ab excepturi laudantium eligendi! Excepturi, beatae.</p>
 		  					<h5 class="regular-price">Regular Price: <span style="text-decoration: line-through;">$49.99</span></h5>
 		  					<h4 class="sale-price">Sale Price: $33.99</h4>
-		  					<a href="#" class="purchase-btn">Purchanse Now</a>
+		  					<a href="#" class="purchase-btn">Purchase Now</a>
 	  					</div>
 	  				</div>
 	  			</div>
 	  		</div>
 	  	</section>
+  		<!-- Second Theme Section Ends Here -->
+  		<!-- Third Theme Section Starts Here -->
 	  	<section class="section-third">
 	  		<div class="layer"></div>
 	  		<div class="container">
 	  			<div class="row">
-	  				<div class="col-lg-6">
+	  				<div class="col-md-6 col-sm-7 col-8">
 	  					<div class="product-details">
 		  					<h2 class="product-title">Demo Icon Pack</h2>
 		  					<p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur illum facere, consequatur at esse quaerat perferendis deleniti cupiditate architecto ab excepturi laudantium eligendi! Excepturi, beatae.</p>
 		  					<h5 class="regular-price">Regular Price: <span style="text-decoration: line-through;">$84.99</span></h5>
 		  					<h4 class="sale-price">Sale Price: $65.99</h4>
-		  					<a href="#" class="purchase-btn">Purchanse Now</a>
+		  					<a href="#" class="purchase-btn">Purchase Now</a>
 	  					</div>
 	  				</div>
 	  			</div>
 	  		</div>
 	  	</section>
+  		<!-- Third Theme Section Ends Here -->
+  		<!-- Fourth Theme Section Starts Here -->
 	  	<section class="section-fourth">
 	  		<div class="layer2"></div>
 	  		<div class="container">
 	  			<div class="row">
-	  				<div class="offset-lg-6 col-lg-6 text-right">
+	  				<div class="offset-md-6 offset-sm-5 offset-4 col-md-6 col-sm-7 col-8 text-right">
 	  					<div class="product-details">
 		  					<h2 class="product-title">Demo Folder Pack</h2>
 		  					<p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur illum facere, consequatur at esse quaerat perferendis deleniti cupiditate architecto ab excepturi laudantium eligendi! Excepturi, beatae.</p>
 		  					<h5 class="regular-price">Regular Price: <span style="text-decoration: line-through;">$89.99</span></h5>
 		  					<h4 class="sale-price">Sale Price: $69.99</h4>
-		  					<a href="#" class="purchase-btn">Purchanse Now</a>
+		  					<a href="#" class="purchase-btn">Purchase Now</a>
 	  					</div>
 	  				</div>
 	  			</div>
 	  		</div>
 	  	</section>
+  		<!-- Fourth Theme Section Ends Here -->
   	</div>
 
 
@@ -97,12 +105,16 @@
     <script src="https://kit.fontawesome.com/948955ccc5.js" crossorigin="anonymous"></script>
     <script src="js/jquery.onepage-scroll.js"></script>
     <script src="js/script.js"></script>
+
 	<script>
 	  $(document).ready(function(){
       $(".main").onepage_scroll({
         sectionContainer: "section",
-        responsiveFallback: 600,
-        loop: true
+        easing: "ease",
+        responsiveFallback: 2000, // You can fallback to normal page scroll by defining the width of the browser in which
+                                  // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
+                                  // the browser's width is less than 600, the fallback will kick in.
+        loop: false	// You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
       });
 		});
 		
